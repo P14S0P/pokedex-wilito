@@ -1,0 +1,74 @@
+body {
+  background-image: url(./background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+}
+
+/* ========= Scroll Bar =========*/
+
+::-webkit-scrollbar {
+  background-color: #1f1f1f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #316ab2;
+  border-radius: 5px;
+  transition: ease-in-out 2s;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #ffcb05;
+  transition: ease-in-out 2s;
+}
+
+.Pokemons {
+  text-align: center;
+  background-image: url(./pokedexbackground.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgb(206, 205, 204);
+  width: 100vh;
+  height: 100%;
+  margin: auto;
+  box-shadow: 0px 0px 0px 10px #316ab2;
+  padding: 0 4rem;
+  padding-bottom: 2vh;
+}
+
+.Pokemon-Logo {
+  margin: 4rem 0;
+  width: 75vh;
+  height: 25vh;
+}
+
+.Pokemon-cards {
+  height: 35vh;
+  max-width: 350px;
+  background: linear-gradient(
+    60deg,
+    rgba(43, 115, 185, 1) 43%,
+    rgba(115, 197, 165, 1) 84%
+  );
+}
+
+.Pokemon-image {
+  width: 25vh;
+  height: 20vh;
+  margin: auto;
+  transition: ease-in-out 0.5s;
+  filter: drop-shadow(30px 10px 4px #232324);
+}
+.Pokemon-image:hover {
+  width: 27vh;
+  height: 22vh;
+}
+
+.Pokemon-name {
+  text-align: center;
+  font-size: 4vh;
+  margin: 1rem 0 0 0;
+  text-transform: capitalize;
+}
